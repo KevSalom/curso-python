@@ -4,7 +4,7 @@
 ###
 
 import os
-os.system("clear")
+os.system("cls")
 
 lista1 = ['a', 'b', 'c', 'd']
 

@@ -5,6 +5,9 @@
 # TODA TU VIDA. Desde hoy hasta el fin de los tiempos
 ###
 
+import os
+os.system("cls")
+
 # Este es un ejemplo básico de cómo imprimir un texto en consola
 print("¡Hola, Twitch!")
 

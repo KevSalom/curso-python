@@ -5,7 +5,7 @@
 ###
 
 import os
-os.system("clear")
+os.system("cls")
 
 # Creación de listas
 print("\nCrear listas")

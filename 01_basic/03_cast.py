@@ -28,7 +28,8 @@ print(bool(" "))  # Una cadena con espacios es True. Resultado: True
 print(bool("False"))  # Una cadena con texto, aunque sea "False", es True. Resultado: True
 
 # Redondear un número decimal
-print(round(2.51))  # Redondea 2.51 al entero más cercano. Resultado: 3
+print(round(2.5))  # Redondea 2.5 al entero par más cercano ya que esta justo en la mitad. Resultado: 2
+print(round(2.51))  # Redondea 2.51 al entero  más cercano. Resultado: 3
 
 # Este genera un error y se comenta para evitar conflicto en la ejecución
-# print(int("Hola mundo"))  # ❌ Esto generaría un ValueError porque "Hola mundo" no es un número
+# print(int("Hola mundo"))  # ❌ Esto generará un ValueError porque "Hola mundo" no es un número
