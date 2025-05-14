@@ -48,7 +48,8 @@
 
 # Argumentos por posición
 def describir_persona(nombre: str, edad: int, sexo: str):
-  print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
+  """Describe una persona con nombre, edad y sexo"""
+  print(f"Soy {nombre}, tengo {edad} años y soy del sexo {sexo}")
 
 # parámetros son posicionales
 describir_persona(1, 25, "gato")

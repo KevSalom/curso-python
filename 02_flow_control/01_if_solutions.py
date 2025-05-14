@@ -5,6 +5,11 @@
 # Ejercicio 1: Determinar el mayor de dos números
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
+
+
+
+
+
 print("\nEjercicio 1:")
 num1 = int(input("Introduce el primer número: "))
 num2 = int(input("Introduce el segundo número: "))
